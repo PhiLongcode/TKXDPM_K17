@@ -9,7 +9,7 @@ public class InputWrapperImpl implements InputInterface {
         this.sc = input;
     }
     @Override
-    public int input() {
+    public int getNumber() {
         return sc.nextInt();
     }
 }
