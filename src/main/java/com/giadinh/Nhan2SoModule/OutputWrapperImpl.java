@@ -8,7 +8,7 @@ public class OutputWrapperImpl implements OutputInterface {
         this.out = output;
     }
     @Override
-    public void output(String s) {
+    public void show(String s) {
         out.println(s);
         out.flush();
     }

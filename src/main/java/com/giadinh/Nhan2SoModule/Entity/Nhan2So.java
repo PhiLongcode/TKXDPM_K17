@@ -38,9 +38,9 @@ public class Nhan2So {
     }
 
     public int nhan2So(){
-        return num1 + num2;
+        return num1 * num2;
     }
     public int nhan2So(int num1, int num2){
-        return num1 + num2;
+        return num1 * num2;
     }
 }

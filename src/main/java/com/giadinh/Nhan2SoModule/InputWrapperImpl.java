@@ -1,3 +1,4 @@
+/*
 package com.giadinh.Nhan2SoModule;
 
 import java.util.Scanner;
@@ -9,7 +10,8 @@ public class InputWrapperImpl implements InputInterface {
         this.sc = input;
     }
     @Override
-    public int getNumber() {
+    public  getNumber() {
         return sc.nextInt();
     }
 }
+*/
